@@ -30,3 +30,4 @@ alias prune='git remote prune origin && git branch | egrep -v "(^\*|main)" | xar
 alias slist="git stash list"
 alias sclear="git stash clear"
 alias grc="git rebase --continue"
+alias sw="git switch"
